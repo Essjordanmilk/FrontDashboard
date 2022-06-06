@@ -1,0 +1,44 @@
+:root {
+    --primary: rgb(63, 24, 97);
+    --light: rgba(36, 3, 77, 0.446);
+    --gray: rgb(48, 45, 45);
+    --gris: #efefef; 
+}
+
+body {
+    overflow: hidden;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    color: var(--primary);
+}
+a:hover{
+    text-decoration: none;
+}
+.btn-search{
+right: 5px;
+}
+
+.bg-primary{background-color: var(--primary) !important;}
+.bg-light{background-color: var(--light) !important;}
+.bg-mix{background-color:var(--gris);}
+.bg-grey{background-color: var(--gris) !important;}
+#sidebar-container {
+    min-height: 100vh;
+}
+
+#sidebar-container {
+    padding: .875rem 1.25rem;
+}
+
+#sidebar-container .menu {
+    width: 18rem;
+}
+.content{
+    overflow-y: auto;
+    height: 100vh;
+    padding-bottom: 5rem;
+}
+.stat{
+    border-right: 1px solid var(--gray);
+
+}
